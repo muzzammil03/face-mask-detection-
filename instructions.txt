@@ -1,0 +1,31 @@
+Content:
+The dataset contains three folders - train, validation and test. Each folder consists of two more folders as follows:
+a. with_mask
+b. without_mask
+
+Concept to be used:
+a. Dataset Preparation & Visualization
+b. Creating CNN model
+c. Implementing Callbacks
+d. Hyperparameter tuning
+e. Deal with Overfitting
+
+Tasks:
+
+1. Load the dataset and perform regular EDA: (15 marks)
+a) Plot any one image with mask and without mask
+b) Prepare a collection of labels from the loaded data.
+
+2. Defining Model architecture and training (40 marks)
+a) Creating a CNN Classifier model from scratch
+b) Implementing multiple CNN blocks
+c) Use hyperparameters to improve model's performance and reduce overfitting
+d) Implement callbacks while training the model.
+e) Plot the training and validation scoring metrics.
+
+3) Evaluation and Testing (30 marks)
+a) Calculate the training, validation and test scores and compare them.
+b) Save the model
+c) Load the model 
+d) Create prediction function.
+e) Test the loaded model on random images and display the predicted label
